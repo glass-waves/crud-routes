@@ -5,6 +5,6 @@ DROP TABLE IF EXISTS todos;
 CREATE TABLE todos (
     id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     todo_item TEXT NOT NULL,
-    date INT NOT NULL,
+    date BIGINT NOT NULL,
     importance TEXT NOT NULL
 );
